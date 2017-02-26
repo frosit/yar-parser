@@ -4,6 +4,8 @@ Parsing
 
 This document contains some comments regarding parsing
 
+This setup was inspired by the symfony yaml component but took a turn in to favouring regex for parsing.
+
 # strings
 
 * each string newline
@@ -16,7 +18,7 @@ This document contains some comments regarding parsing
 
 Since yara's format is pretty broad, lexing is a better approach. Would be 
 
-* https://github.com/nikic/Phlexy
+*   https://github.com/nikic/Phlexy
 
 *    $binNumberRegex = `'0b[01]+';`
 *    $hexNumberRegex = `'0x[0-9a-f]+';`

@@ -6,15 +6,7 @@ This repository contains an experimental parser for yara's .yar format.
 It's meant to support at least the magento-malware-repository and tries to support as much as possible from the yara spec.
 Complimentary PHP based scanners are available.
 
-The base setup was insprired by symfony's yaml parser but took a turn into favouring regex.
-Therefore a large portion of functions are currently not used. I basically have 2 functional ways of parsing with both their pro's ad cons.
-The best solution would be to use a lexer.
-
-I ported a portion of yara's tests to PHPunit tests. 
-
-__issues__
-
-* there are some issues with parsing comments
+__note:__ unstable / unfinished
 
 ## Example
 
@@ -131,8 +123,8 @@ conditions: ['$a or $b or $c']
 
 ### Author
 
-This library is part of a collection of Magento security solutions created by Fabio Ros, a.k.a. FROSIT from GDPRPRoof.
+This library is part of a collection of Magento security solutions created by Fabio Ros (FROSIT).
 
 ### License
 
-![GDPRProof Logo](http://www.gnu.org/graphics/agplv3-155x51.png) This software is licensed under the [AGPL-v3.0 License](http://www.gnu.org/licenses/agpl-3.0.html)
+This software is licensed under the [AGPL-v3.0 License](http://www.gnu.org/licenses/agpl-3.0.html)
