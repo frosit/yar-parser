@@ -1,0 +1,18 @@
+# Yar parser ignore
+
+# IDE & OS
+/.idea
+.DS_*
+
+# Composer
+vendor/
+composer.lock
+
+# Project
+phpunit.xml
+
+
+# Development
+/*.tgz
+/*.yar
+/dev

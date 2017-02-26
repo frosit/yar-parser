@@ -1,0 +1,36 @@
+{
+  "name": "frosit/yar-parser",
+  "type": "library",
+  "description": "An experimental .yar file parser",
+  "keywords": [
+    "yara",
+    "yar",
+    "signatures",
+    "parser",
+    "magx"
+  ],
+  "homepage": "https://github.com/frosit/yar-parser",
+  "license": "AGPL-3.0",
+  "authors": [
+    {
+      "name": "Fabio Ros",
+      "homepage": "https://gdprproof.com",
+      "email": "f.ros@frosit.nl"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.9"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Frosit\\Component\\Yar\\": ""
+    },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
+  },
+  "minimum-stability": "dev"
+}
